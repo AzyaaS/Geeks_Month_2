@@ -19,4 +19,4 @@ class Cat(Animal):
         print('test in cat')
 puppy = Dog()
 puppy.make_sound()
-kitty = Cat()
+# kitty = Cat()  # тут ошибка - класс не реализовал весь набор абстрактных методов
