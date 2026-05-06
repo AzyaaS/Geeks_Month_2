@@ -20,7 +20,7 @@ class Classmate(Person):
     def introduce(self):
         person_higher_education = "высшее образование есть" if self.higher_education else "высшего образования нет"
         print(f'Привет меня зовут {self.name}, мой одноклассник {self.classmate_name}, мы в группе {self.group_name}, '
-              f'я родился в {self.birth_date}, по професcии {self.occupation}, {person_higher_education}')
+              f'я родился в {self.birth_date}, по профессии {self.occupation}, {person_higher_education}')
 
 class Friend(Person):
     def __init__(self,name, birth_date, occupation, higher_education, hobby,friend_name):
@@ -30,7 +30,7 @@ class Friend(Person):
     def introduce(self):
         person_higher_education = "высшее образование есть" if self.higher_education else "высшего образования нет"
         print(f'Привет меня зовут {self.name}, мой друг {self.friend_name}, мое хобби {self.hobby}, '
-              f'я родился в {self.birth_date}, по професcии {self.occupation}, {person_higher_education}')
+              f'я родился в {self.birth_date}, по профессии {self.occupation}, {person_higher_education}')
 classmate_1 = Classmate("Пётр", '11.11.2000г', 'Переводчик', True,'11','Саша' )
 classmate_2 = Classmate("Саша", '03.05.2001г', 'Учитель', True,'11','Пётр' )
 
